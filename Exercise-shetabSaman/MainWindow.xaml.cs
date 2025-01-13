@@ -19,10 +19,7 @@ namespace Exercise_shetabSaman
         public MainWindow()
         {
             InitializeComponent();
-        }
 
-        private void OpenWindows_Click(object sender, RoutedEventArgs e)
-        {
             var screens = Screen.AllScreens;
 
             foreach (var screen in screens)
@@ -31,5 +28,6 @@ namespace Exercise_shetabSaman
                 monitorWindow.Show();
             }
         }
+        
     }
 }

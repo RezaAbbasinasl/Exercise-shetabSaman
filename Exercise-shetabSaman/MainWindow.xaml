@@ -5,8 +5,5 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exercise_shetabSaman"
         mc:Ignorable="d"
-        Title="ShetabSaman" Height="450" Width="800">
-    <Grid>
-        <Button Content="Open Monitor Windows" Click="OpenWindows_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" />
-    </Grid>
+        Title="ShetabSaman" Height="450" Width="800" ShowInTaskbar="False" Visibility="Hidden">
 </Window>
